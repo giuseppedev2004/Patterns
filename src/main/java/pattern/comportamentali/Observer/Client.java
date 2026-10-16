@@ -21,8 +21,6 @@ package pattern.comportamentali.Observer;
             dati.detach(graficoBarre);
 
             // 6. Modifico di nuovo -> ora riceverà la notifica solo il grafico a torta
-            System.out.println("\n--- Seconda modifica al Subject (dopo detach) ---");
-            dati.setState("Modifica 2 (A=10%)");
-        }
+            System.out.println("\n--- Seconda modifica al Subject (dopo detach) ---")}
     }
 }
